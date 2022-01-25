@@ -1,15 +1,23 @@
 import Vue from 'vue'
+import BootstrapVue from 'bootstrap-vue'
+import VueSmoothScroll from 'vue2-smooth-scroll'
+import VuePrlx from 'vue-prlx'
+import Element from 'element-ui'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import Home from '@/components/Home.vue'
 
+Vue.use(BootstrapVue)
+Vue.use(VueSmoothScroll)
+Vue.use(VuePrlx)
+Vue.use(Element)
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'Home',
+      component: Home
     }
   ]
 })
