@@ -19,7 +19,7 @@
     <Profile />
     <Skill />
     <Experience />
-    <Projects />
+    <Project />
   </div>
 </template>
 
