@@ -208,6 +208,215 @@
         </FadeInComponent>
       </section>
     </div>
+
+    <div class="container clearfix sp">
+      <section>
+        <FadeInComponent>
+          <h1 class="title">Experience</h1>
+        </FadeInComponent>
+        <FadeInComponent>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card-body card-title">
+                  <div class="card-experience">
+                    <p>Jun/2021 - Present</p>
+                    <h5>Melbourne, Australia</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <div class="card-content">
+                    <h5>Back-end/Front-end web application developer at Team App</h5>
+                    <p>Joined as a RoR and Javascript development for the new project called Competition Manager.</p>
+                    <table>
+                      <tr>
+                        <th>Specialty</th>
+                        <td>Ruby on Rails, jQuery, jBuilder, Vue.js, Docker, GitHub</td>
+                      </tr>
+                      <tr>
+                        <th>Competition Manager:</th>
+                        <!-- <td></td> -->
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </FadeInComponent>
+        <FadeInComponent>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card-body card-title">
+                  <div class="card-experience">
+                    <p>Oct/2020 - Jun/2021</p>
+                    <h5>Melbourne, Australia</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <div class="card-content">
+                    <h5>Production Roaster at Small Batch Roasting Co.</h5>
+                    <p>Engaged in production for coffee product at a high-quality coffee wholesaler in Melbourne. Responsible for product development. Found my passion in pursuing product quality to improve user experience and its demand.</p>
+                    <table>
+                      <tr>
+                        <th></th>
+                        <td></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </FadeInComponent>
+        <FadeInComponent>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card-body card-title">
+                  <div class="card-experience">
+                    <p>Sep/2019 - Dec/2019</p>
+                    <h5>Caldas, Colombia</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <div class="card-content">
+                    <h5>Production Roaster at InverCafé Ltda.</h5>
+                    <p>Joined as a quality control assistant at a high-quality green coffee producer/exporter in Colombia. Acquired an intricate knowledge of the industry. Realised that the industry is still slow to adopt technological change globally, which gradually made me get interested in software development.</p>
+                    <table>
+                      <tr>
+                        <th></th>
+                        <td></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </FadeInComponent>
+        <FadeInComponent>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card-body card-title">
+                  <div class="card-experience">
+                    <p>Jan/2018 - Sep/2019</p>
+                    <h5>London, England</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <div class="card-content">
+                    <h5>Production Roaster at The Roasting Shed Co.</h5>
+                    <p>Turned my career into a production coffee roaster at a small coffee wholesaler in the UK. Engaging in local coffee market while building fundamental knowledge and skillsets of product development.</p>
+                    <table>
+                      <tr>
+                        <th></th>
+                        <td></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </FadeInComponent>
+        <FadeInComponent>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card-body card-title">
+                  <div class="card-experience">
+                    <p>Apr/2013 - Jul/2017</p>
+                    <h5>Fukuoka/Osaka, Japan</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <div class="card-content">
+                    <h5>Sales Development Representative at Yuasa Trading Co.</h5>
+                    <p>Started my career in Sales and Marketing of industrial machinery and equipment at one of the leading trading companies in Japan. Enjoyed building the relationship with stakeholders and gained strong confidence to work in a team. </p>
+                    <table>
+                      <tr>
+                        <th>Achievements</th>
+                        <td>- Doubling my area sales within a 12-month period. (Both sales figure and profit)</td>
+                        <td>- Successful relationship development with stakeholders, while ensuring developing sales figures.</td>
+                        <td>- Accurate day to day order management in the fast-paced trade environment.</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </FadeInComponent>
+      </section>
+      <section>
+      <FadeInComponent>
+        <h1 class="title">Education</h1>
+      </FadeInComponent>
+        <FadeInComponent>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card-body card-title">
+                  <div class="card-experience">
+                    <p>Jul/2021 - Ongoing</p>
+                    <h5>Computer Science</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <div class="card-content">
+                    <h5>Master of Information Technology at RMIT University</h5>
+                    <p>Majoring in computer science to gain more intricate knowledge and skill set in backend web application development. Becoming a skilled back-end web developer is my current objective.</p>
+                    <table>
+                      <tr>
+                        <th></th>
+                        <td></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </FadeInComponent>
+        <FadeInComponent>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card-body card-title">
+                  <div class="card-experience">
+                    <p>Apr/2009 - Mar/2013</p>
+                    <h5>Business Administration</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="card-body">
+                  <div class="card-content">
+                    <h5>Bachelor of Business Administration</h5>
+                    <p>Built the ability of team management and individual collaboration in a team through engaging in the university's American Football club for four years while successfully studying business administration. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </FadeInComponent>
+      </section>
+    </div>
   </div>
 </template>
 
