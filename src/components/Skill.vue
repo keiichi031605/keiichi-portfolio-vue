@@ -177,7 +177,8 @@ export default {
   margin: 0 auto;
   box-sizing: border-box;
   position: relative;
-  background-image: url('../assets/roasting.jpg');
+  /* background-image: url('../assets/roasting.jpg'); */
+  background-image: radial-gradient(farthest-corner, rgba(255, 255, 255, 0.4), rgba(10, 73, 100, 0.95));
   z-index: 0;
 }
 
@@ -263,7 +264,8 @@ section h2 {
     margin: 0 auto;
     box-sizing: border-box;
     position: relative;
-    background-image: url('../assets/roasting.jpg');
+    /* background-image: url('../assets/roasting.jpg'); */
+    background-image: radial-gradient(farthest-corner, rgba(255, 255, 255, 0.4), rgba(10, 73, 100, 0.95));
     z-index: 0;
   }
 
