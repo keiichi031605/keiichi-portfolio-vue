@@ -13,31 +13,31 @@
           <div class="progress-col">
             <div class="progress-wrapper">
               <span>Ruby / Ruby on Rails</span>
-              <el-progress :percentage="80"></el-progress>
+              <el-progress :percentage="90"></el-progress>
             </div>
           </div>
           <div class="progress-col">
             <div class="progress-wrapper">
               <span>HTML / CSS</span>
-              <el-progress :percentage="60"></el-progress>
+              <el-progress :percentage="75"></el-progress>
             </div>
           </div>
           <div class="progress-col">
             <div class="progress-wrapper">
               <span>JavaScript</span>
-              <el-progress :percentage="50"></el-progress>
+              <el-progress :percentage="75"></el-progress>
             </div>
           </div>
           <div class="progress-col">
             <div class="progress-wrapper">
               <span>Vue.js</span>
-              <el-progress :percentage="40"></el-progress>
+              <el-progress :percentage="50"></el-progress>
             </div>
           </div>
           <div class="progress-col">
             <div class="progress-wrapper">
               <span>jQuery</span>
-              <el-progress :percentage="40"></el-progress>
+              <el-progress :percentage="75"></el-progress>
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@
           <div class="progress-col">
             <div class="progress-wrapper">
               <span>Python</span>
-              <el-progress :percentage="70"></el-progress>
+              <el-progress :percentage="50"></el-progress>
             </div>
           </div>
           <div class="progress-col">
@@ -77,25 +77,25 @@
           <div class="progress-col">
             <div class="progress-wrapper">
               <span>Git</span>
-              <el-progress :percentage="70"></el-progress>
+              <el-progress :percentage="75"></el-progress>
             </div>
           </div>
           <div class="progress-col">
             <div class="progress-wrapper">
               <span>GitHub</span>
-              <el-progress :percentage="80"></el-progress>
+              <el-progress :percentage="75"></el-progress>
             </div>
           </div>
           <div class="progress-col">
             <div class="progress-wrapper">
               <span>Docker</span>
-              <el-progress :percentage="80"></el-progress>
+              <el-progress :percentage="50"></el-progress>
             </div>
           </div>
           <div class="progress-col">
             <div class="progress-wrapper">
               <span>Foreman</span>
-              <el-progress :percentage="70"></el-progress>
+              <el-progress :percentage="50"></el-progress>
             </div>
           </div>
           <div class="progress-col">
@@ -177,7 +177,7 @@ export default {
   margin: 0 auto;
   box-sizing: border-box;
   position: relative;
-  background-image: url('../assets/coding.jpg');
+  background-image: url('../assets/roasting.jpg');
   z-index: 0;
 }
 
@@ -263,7 +263,7 @@ section h2 {
     margin: 0 auto;
     box-sizing: border-box;
     position: relative;
-    background-image: url('../assets/coding.jpg');
+    background-image: url('../assets/roasting.jpg');
     z-index: 0;
   }
 

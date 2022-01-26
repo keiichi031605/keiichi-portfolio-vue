@@ -10,7 +10,7 @@
             <a href="https://github.com/keiichi031605" target="_blank"><i class="fab fa-github fa-lg"></i></a>
           </li>
           <li>
-            <a href="../assets/KeiichiKatsunoCV.pdf" target="blank"><i class="far fa-file fa-lg"></i></a>
+            <a href="#" target="_blank"><i class="far fa-file fa-lg"></i></a>
           </li>
         </ul>
       </div>
@@ -42,7 +42,8 @@ export default {
   },
   data () {
     return {
-      show: true
+      show: true,
+      publicPath: process.env.BASE_URL
     }
   }
 }
