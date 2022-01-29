@@ -3,10 +3,10 @@
     <div id="parallax" class="splash">
       <div data-depth="0.2" class="ui page grid">
         <h1 class="title text">
-          Keiichi Katsuno<br/>
+          KEIICHI KATSUNO<br/>
         </h1>
         <br>
-        <span class="text">Ruby on Rails Developer</span>
+        <span class="text">ROR DEVELOPER</span>
       </div>
     </div>
     <transition name="slide" appear>
@@ -75,8 +75,8 @@ export default {
   box-sizing: border-box;
   color: rgb(255, 255, 255);
   display: inline;
-  /* font-family: Arial, Helvetica, sans-serif; */
-  font-size: 30px;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 18px;
   font-weight: normal;
   height: auto;
   text-align: center;
@@ -87,7 +87,7 @@ export default {
 }
 
 h1.title {
-  font-size: 5rem;
+  font-size: 3rem;
   /* font-weight: bold; */
 }
 
@@ -179,6 +179,10 @@ a img:hover {
     color: #fff;
     font-size: 18px;
     letter-spacing: 2px;
+  }
+  h1.title {
+  font-size: 2rem;
+  /* font-weight: bold; */
   }
 }
 </style>

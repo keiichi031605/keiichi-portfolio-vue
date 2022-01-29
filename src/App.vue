@@ -21,8 +21,7 @@ export default {
 
 <style>
 #app {
-  font-family: 'IBM Plex Sans Condensed', sans-serif;
-  -webkit-font-smoothing: antialiased;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
