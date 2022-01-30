@@ -1,8 +1,9 @@
 <template>
-  <div id="skill" class="bg-blar" :class="{safari: safari}" v-parallax="{
-        height: '100vh',
-        denominator: 1.8
-    }">
+  <div
+    id="skill"
+    class="bg-blar"
+    :style="background_image"
+    >
     <FadeInComponent>
       <h1 class="title">Skill Set</h1>
     </FadeInComponent>
@@ -130,7 +131,8 @@ export default {
   },
   data () {
     return {
-      safari: false
+      safari: false,
+      background_image: { backgroundImage: 'url(' + require('../assets/roasting.jpg') + ')' }
     }
   },
   directives: {
@@ -177,8 +179,6 @@ export default {
   margin: 0 auto;
   box-sizing: border-box;
   position: relative;
-  /* background-image: url('../assets/roasting.jpg'); */
-  background-image: radial-gradient(farthest-corner, rgba(255, 255, 255, 0.4), rgba(10, 73, 100, 0.95));
   z-index: 0;
 }
 
@@ -264,8 +264,6 @@ section h2 {
     margin: 0 auto;
     box-sizing: border-box;
     position: relative;
-    /* background-image: url('../assets/roasting.jpg'); */
-    background-image: radial-gradient(farthest-corner, rgba(255, 255, 255, 0.4), rgba(10, 73, 100, 0.95));
     z-index: 0;
   }
 

@@ -5,18 +5,10 @@
         <nav>
           <div class="container">
             <ul class="clearfix">
-              <div>
-                <li><a href="#profile" v-smooth-scroll="{ duration: 500, offset: -123 }">PROFILE</a></li>
-              </div>
-              <div>
-                <li><a href="#skill" v-smooth-scroll="{ duration: 500 }">SKILL SET</a></li>
-              </div>
-              <div>
-                <li><a href="#experience" v-smooth-scroll="{ duration: 500 }">EXPERIENCE</a></li>
-              </div>
-              <div>
-                <li><a href="#projects" v-smooth-scroll="{ duration: 500 }">PROJECT</a></li>
-              </div>
+              <li><a href="#profile" v-smooth-scroll="{ duration: 500, offset: -123 }">PROFILE</a></li>
+              <li><a href="#skill" v-smooth-scroll="{ duration: 500 }">SKILL SET</a></li>
+              <li><a href="#experience" v-smooth-scroll="{ duration: 500 }">EXPERIENCE</a></li>
+              <li><a href="#projects" v-smooth-scroll="{ duration: 500 }">PROJECT</a></li>
             </ul>
           </div>
         </nav>
