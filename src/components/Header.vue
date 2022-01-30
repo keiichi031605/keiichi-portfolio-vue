@@ -26,16 +26,17 @@
         </div>
       </div>
     </header>
-    <!-- <transition name="navi">
+    <transition name="navi">
       <nav class="navi" v-show="navi">
         <ul class="navi-wrap">
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Skill</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Experience</a></li>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">SKILL</a></li>
+          <li><a href="#">EXPERIENCE</a></li>
+          <li><a href="#">PROJECTS</a></li>
+          <li><a href="#">CONTACT</a></li>
         </ul>
       </nav>
-    </transition> -->
+    </transition>
   </div>
 </template>
 
