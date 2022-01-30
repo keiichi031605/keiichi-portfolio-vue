@@ -1,7 +1,7 @@
 <template>
   <div id="profile">
     <transition name="slide" appear>
-      <h1 class="title tag">Profile</h1>
+      <h2 class="title tag">PROFILE</h2>
     </transition>
     <div class="pc">
       <FadeInComponent>

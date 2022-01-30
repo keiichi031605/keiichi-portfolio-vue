@@ -5,10 +5,13 @@
         <nav>
           <div class="container">
             <ul class="clearfix">
-              <li><a href="#profile" v-smooth-scroll="{ duration: 500, offset: -123 }">PROFILE</a></li>
-              <li><a href="#skill" v-smooth-scroll="{ duration: 500 }">SKILL SET</a></li>
-              <li><a href="#experience" v-smooth-scroll="{ duration: 500 }">EXPERIENCE</a></li>
-              <li><a href="#projects" v-smooth-scroll="{ duration: 500 }">PROJECT</a></li>
+            <div class='m-3'>
+              <li><router-link class="nav-link px-4 py-3" to="/">HOME</router-link></li>
+            </div>
+              <li><router-link class="nav-link px-4 py-3" to="/Skill">SKILL SET</router-link></li>
+              <li><router-link class="nav-link px-4 py-3" to="/Experience">EXPERIENCE</router-link></li>
+              <li><router-link class="nav-link px-4 py-3" to="/Project">PROJECTS</router-link></li>
+              <li><router-link class="nav-link px-4 py-3" to="/Contact">CONTACT</router-link></li>
             </ul>
           </div>
         </nav>
@@ -96,8 +99,8 @@ export default {
 }
 
 .navbar ul {
-  list-style: none;
-  float: right;
+  display: flex;
+  justify-content: space-around;
 }
 
 .navbar li {

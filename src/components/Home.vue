@@ -17,9 +17,6 @@
     </transition>
     <Splash />
     <Profile />
-    <Skill />
-    <Experience />
-    <Project />
   </div>
 </template>
 
@@ -27,18 +24,12 @@
 // @ is an alias to /src
 import Splash from '@/components/Splash.vue'
 import Profile from '@/components/Profile.vue'
-import Skill from '@/components/Skill.vue'
-import Experience from '@/components/Experience.vue'
-import Project from '@/components/Project.vue'
 
 export default {
   name: 'Home',
   components: {
     Splash,
-    Profile,
-    Skill,
-    Experience,
-    Project
+    Profile
   },
   data () {
     return {
