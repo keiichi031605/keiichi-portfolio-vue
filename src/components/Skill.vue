@@ -5,7 +5,7 @@
     :style="background_image"
     >
     <FadeInComponent>
-      <h1 class="title">Skill Set</h1>
+      <h1 class="title">SKILL SET</h1>
     </FadeInComponent>
     <SlideInLefttoRightComponent>
       <section>

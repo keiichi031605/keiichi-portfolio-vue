@@ -5,38 +5,35 @@
         <nav>
           <div class="container">
             <ul class="clearfix">
-            <div class='m-3'>
-              <li><router-link class="nav-link px-4 py-3" to="/">HOME</router-link></li>
-            </div>
-              <li><router-link class="nav-link px-4 py-3" to="/Skill">SKILL SET</router-link></li>
-              <li><router-link class="nav-link px-4 py-3" to="/Experience">EXPERIENCE</router-link></li>
-              <li><router-link class="nav-link px-4 py-3" to="/Project">PROJECTS</router-link></li>
-              <li><router-link class="nav-link px-4 py-3" to="/Contact">CONTACT</router-link></li>
+              <li><router-link class="nav-link" to="/">HOME</router-link></li>
+              <li><router-link class="nav-link" to="/Experience">EXPERIENCE</router-link></li>
+              <li><router-link class="nav-link" to="/Project">PROJECTS</router-link></li>
             </ul>
           </div>
         </nav>
       </div>
       <div class="header-sp">
-        <div class="header-menu">
-          <div class="header-menu-line" @click="naviOpen" :class="{'is-active': active}">
-            <span></span>
-            <span></span>
-            <span></span>
+        <!-- <div class="header-menu"> -->
+          <!-- <div class="header-menu-line" @click="naviOpen" :class="{'is-active': active}"> -->
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
           </div>
-        </div>
+          <!-- </div> -->
+        <!-- </div> -->
       </div>
     </header>
-    <transition name="navi">
+    <!-- <transition name="navi">
       <nav class="navi" v-show="navi">
         <ul class="navi-wrap">
           <li><a href="#">HOME</a></li>
-          <li><a href="#">SKILL</a></li>
           <li><a href="#">EXPERIENCE</a></li>
           <li><a href="#">PROJECTS</a></li>
           <li><a href="#">CONTACT</a></li>
         </ul>
       </nav>
-    </transition>
+    </transition> -->
   </div>
 </template>
 
@@ -145,6 +142,23 @@ export default {
   display: none;
 }
 
+/* Burger added */
+.burger {
+  display: none;
+  margin-right: 60px;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  opacity: .8;
+  margin: 5px;
+  border-radius: 1px;
+  transition: all 0.3s ease;
+}
+
 @media screen and (max-width:767px) {
   .navbar {
     display: block;
@@ -187,6 +201,10 @@ export default {
     border-bottom: solid 1px #dddddd;
     box-shadow: 0px 2px 3px rgb(0 0 0 / 4%);
     transition: padding 0.5s ease, background 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
+  }
+  /* Burger added */
+  .burger {
+    display: block;
   }
 }
 </style>

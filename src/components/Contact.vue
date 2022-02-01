@@ -1,24 +1,93 @@
 <template>
-  <div>
-    <div class="container mt-5 px-5">
-      <h1 class="mb-4">Contact</h1>
-      <p class="text-center" style="color: gray">
-        DM me if you have any questions.
-      </p>
-      <a
-        href=""
-        class="btn text-white mt-4 twitter"
-      >
-        LinkedIn
-      </a>
+  <div id="contact">
+    <div>
+      <section>
+        <FadeInComponent>
+          <h1 class="title">CONTACT</h1>
+        </FadeInComponent>
+        <FadeInComponent>
+          <div class="card">
+            <div>
+              <p>
+                DM me if you have any questions.
+              </p>
+              <a href="https://www.linkedin.com/in/keiichi-katsuno/" class="btn text-white mt-4 linkedin">LinkedIn</a>
+            </div>
+          </div>
+        </FadeInComponent>
+      </section>
     </div>
   </div>
 </template>
 
-<script></script>
+<script>
+import FadeInComponent from '@/components/FadeInComponent.vue'
+
+export default {
+  name: 'Experience',
+  components: {
+    FadeInComponent
+  }
+}
+</script>
 
 <style>
-.twitter {
+.linkedin {
   background-color: rgba(65, 184, 131);
+}
+
+#contact {
+  background-color: #F3F3F3;
+  width: 100%;
+  padding: 100px 150px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 0;
+  line-height: 1.6;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/* .bg-blar:before{
+  content: '';
+  background: inherit;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+} */
+
+.title {
+  text-align: left;
+  margin-bottom: 40px;
+  color: rgb(60, 146, 146);
+  font-weight: 600;
+  letter-spacing: 0.2em;
+}
+
+/* .form {
+  width: 75%;
+  margin: 0 auto;
+} */
+
+button.submit {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  #contact {
+    padding: 20px 10px;
+    box-sizing: border-box;
+    line-height: 1.6;
+  }
+
+  .title{
+    text-align: center;
+    margin-bottom: 0px;
+  }
 }
 </style>

@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 import VueSmoothScroll from 'vue2-smooth-scroll'
 import VuePrlx from 'vue-prlx'
 import Element from 'element-ui'
@@ -8,7 +10,6 @@ import locale from 'element-ui/lib/locale/lang/ja'
 import Router from 'vue-router'
 import Home from '@/components/Home.vue'
 import Experience from '@/components/Experience.vue'
-import Skill from '@/components/Skill.vue'
 import Project from '@/components/Project.vue'
 import Contact from '@/components/Contact.vue'
 
@@ -28,10 +29,6 @@ export default new Router({
     {
       path: '/Experience',
       component: Experience
-    },
-    {
-      path: '/Skill',
-      component: Skill
     },
     {
       path: '/Project',
