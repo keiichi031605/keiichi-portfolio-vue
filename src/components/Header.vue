@@ -93,7 +93,8 @@ export default {
 .navbar .container {
   width: 80%;
   height: 100%;
-  margin: 0 auto;
+  margin-right: 0px;
+  padding-left:600px;
 }
 
 .navbar ul {
@@ -104,7 +105,6 @@ export default {
 .navbar li {
   width: 100px;
   text-align: center;
-  float: left;
   height: 60px;
   line-height: 60px;
 }

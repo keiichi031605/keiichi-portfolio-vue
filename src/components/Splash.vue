@@ -88,7 +88,6 @@ export default {
 
 h1.title {
   font-size: 3rem;
-  /* font-weight: bold; */
 }
 
 a.text {
@@ -182,7 +181,6 @@ a img:hover {
   }
   h1.title {
   font-size: 2rem;
-  /* font-weight: bold; */
   }
 }
 </style>
