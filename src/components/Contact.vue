@@ -9,7 +9,7 @@
           <div class="card">
             <div>
               <p>
-                DM me if you have any questions.
+                DM me via Linkedin if you have any questions.
               </p>
               <a href="https://www.linkedin.com/in/keiichi-katsuno/" class="btn text-white mt-4 linkedin">LinkedIn</a>
             </div>
