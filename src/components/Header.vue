@@ -13,27 +13,13 @@
         </nav>
       </div>
       <div class="header-sp">
-        <!-- <div class="header-menu"> -->
-          <!-- <div class="header-menu-line" @click="naviOpen" :class="{'is-active': active}"> -->
-          <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-          <!-- </div> -->
-        <!-- </div> -->
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
       </div>
     </header>
-    <!-- <transition name="navi">
-      <nav class="navi" v-show="navi">
-        <ul class="navi-wrap">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">EXPERIENCE</a></li>
-          <li><a href="#">PROJECTS</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
-      </nav>
-    </transition> -->
   </div>
 </template>
 

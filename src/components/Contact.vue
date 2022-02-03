@@ -50,17 +50,6 @@ a:hover {
   opacity: 0.7;
 }
 
-/* .bg-blar:before{
-  content: '';
-  background: inherit;
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  right: -5px;
-  bottom: -5px;
-  z-index: -1;
-} */
-
 .title {
   text-align: left;
   margin-bottom: 40px;
@@ -68,11 +57,6 @@ a:hover {
   font-weight: 600;
   letter-spacing: 0.2em;
 }
-
-/* .form {
-  width: 75%;
-  margin: 0 auto;
-} */
 
 button.submit {
   width: 100%;
