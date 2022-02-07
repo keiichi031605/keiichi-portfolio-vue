@@ -6,7 +6,7 @@
           <h1 class="title">CONTACT</h1>
         </FadeInComponent>
         <FadeInComponent>
-          <div class="card">
+          <div class="card p-5">
             <div>
               <p>
                 DM me via Linkedin if you have any questions.
