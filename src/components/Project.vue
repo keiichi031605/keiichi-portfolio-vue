@@ -33,7 +33,7 @@ export default {
 <style scoped>
 
 #projects {
-  background-color: #F3F3F3;
+  background-color: rgba(176, 176, 176, 0.9);
   width: 100%;
   padding: 100px 150px;
   box-sizing: border-box;

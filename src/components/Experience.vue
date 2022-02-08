@@ -433,7 +433,7 @@ export default {
 
 <style scoped>
 #experience {
-  background-color: #fff;
+  background-color: rgba(176, 176, 176, 0.9);
   width: 100%;
   padding: 100px 150px;
   box-sizing: border-box;
