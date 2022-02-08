@@ -2,7 +2,7 @@
   <div class="home">
     <transition name="slide" appear>
       <div id="nav_sns" v-show="show">
-        <ul style="display: flex; justify-content: space-evenly;">
+        <ul class="m-0 p-0" style="display: flex; justify-content: space-evenly;">
           <li>
             <a href="https://www.linkedin.com/in/keiichi-katsuno/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
           </li>
