@@ -67,7 +67,7 @@ export default {
 .navbar {
   display: block;
   overflow: hidden;
-  height: 60px;
+  height: 50px;
   padding: 15px 0;
   transition: padding 0.5s ease, background 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
 }
