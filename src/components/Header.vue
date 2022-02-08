@@ -4,10 +4,10 @@
       <div class="navbar" v-bind:class="{light: isScreentTop}">
         <nav>
           <div class="container">
-            <ul class="clearfix">
-              <li><router-link class="nav-link" to="/">HOME</router-link></li>
-              <li><router-link class="nav-link" to="/Experience">EXPERIENCE</router-link></li>
-              <li><router-link class="nav-link" to="/Project">PROJECTS</router-link></li>
+            <ul>
+              <li><router-link class="nav-link p-0" to="/">HOME</router-link></li>
+              <li><router-link class="nav-link p-0" to="/Experience">EXPERIENCE</router-link></li>
+              <li><router-link class="nav-link p-0" to="/Project">PROJECTS</router-link></li>
             </ul>
           </div>
         </nav>
@@ -89,10 +89,10 @@ export default {
 }
 
 .navbar li {
-  width: 100px;
+  width: 150px;
   text-align: center;
-  height: 60px;
-  line-height: 60px;
+  height: 50px;
+  line-height: 50px;
 }
 
 .navbar a {
@@ -108,7 +108,7 @@ export default {
 
 .light {
   padding: 0;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
   border-bottom: solid 1px #dddddd;
   box-shadow: 0px 2px 3px rgb(0 0 0 / 4%);
   transition: padding 0.5s ease, background 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
@@ -120,7 +120,7 @@ export default {
 
 .light ul li a:hover {
   background-color: rgb(60, 146, 146);
-  color: #fff;
+  color: rgba(255, 255, 255, 0.9);
   transition: background-color .3s;
 }
 
@@ -138,7 +138,7 @@ export default {
 .burger div {
   width: 25px;
   height: 3px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
   opacity: .8;
   margin: 5px;
   border-radius: 1px;
@@ -183,7 +183,7 @@ export default {
 
   .light {
     padding: 0;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
     border-bottom: solid 1px #dddddd;
     box-shadow: 0px 2px 3px rgb(0 0 0 / 4%);
     transition: padding 0.5s ease, background 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
