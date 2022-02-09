@@ -40,6 +40,11 @@ export default {
   position: relative;
   z-index: 0;
   line-height: 1.6;
+  height: 1200px;
+}
+
+.card {
+  padding: 36px;
 }
 
 a:hover {

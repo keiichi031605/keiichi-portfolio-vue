@@ -138,20 +138,20 @@ export default {
     padding: 15px;
     text-align: center;
     line-height: 1;
-    background: #fff;
+    background: rgb(240, 240, 240);
     border-radius: 10px 10px 0 0;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
 
   #profile {
-    height: initial;
+    height: 100vh;
     margin-bottom: 20px;
   }
 
   .profile-wrapper {
     width: 100%;
-    height: initial;
+    /* height: initial; */
     display: block;
     transform: translate3d(0, -62px, 0);
   }
@@ -163,7 +163,7 @@ export default {
   .profile-content-wrapper {
     width: 100%;
     height: initial;
-    margin: 0 auto;
+    margin: 100px auto;
     padding: 30px;
     box-sizing: border-box;  }
 
