@@ -10,7 +10,7 @@
       </div>
     </div>
     <transition name="slide" appear>
-      <a href="#profile" class="scroll-icon right-to-left" v-show="isScreentIconVisible" v-smooth-scroll="{ duration: 500, offset: -123 }">
+      <a href="#profile" class="scroll-icon right-to-left" v-show="isScreentIconVisible" v-smooth-scroll="{ duration: 500 }">
         <span>SCROLL DOWN →</span>
       </a>
     </transition>
