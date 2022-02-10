@@ -26,7 +26,6 @@ export default {
     }
   },
   mounted () {
-    /* eslint-disable */
     this.$nextTick(function () {
       var layer = document.getElementById('parallax')
       const parallax = new Parallax(layer, {
@@ -37,7 +36,6 @@ export default {
       })
     })
     window.addEventListener('scroll', this.onScroll)
-    /* eslint-disable */
   },
   computed: {
     isScreentIconVisible () {
