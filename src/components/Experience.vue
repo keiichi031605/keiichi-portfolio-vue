@@ -3,7 +3,7 @@
     <div class="container clearfix pc">
       <section>
         <FadeInComponent>
-          <h1 class="title">Experience</h1>
+          <h2 class="title">Experience</h2>
         </FadeInComponent>
         <FadeInComponent>
           <div class="card">
@@ -433,7 +433,7 @@ export default {
 
 <style scoped>
 #experience {
-  background-color: rgba(176, 176, 176, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   width: 100%;
   padding: 100px 150px;
   box-sizing: border-box;

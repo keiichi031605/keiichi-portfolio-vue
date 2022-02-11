@@ -18,6 +18,7 @@
     <Splash />
     <Profile />
     <Skill />
+    <Experience />
     <Contact />
   </div>
 </template>
@@ -27,6 +28,7 @@
 import Splash from '@/components/Splash.vue'
 import Profile from '@/components/Profile.vue'
 import Skill from '@/components/Skill.vue'
+import Experience from '@/components/Experience.vue'
 import Contact from '@/components/Contact.vue'
 
 export default {
@@ -35,6 +37,7 @@ export default {
     Splash,
     Profile,
     Skill,
+    Experience,
     Contact
   },
   data () {

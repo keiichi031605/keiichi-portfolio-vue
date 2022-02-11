@@ -6,7 +6,6 @@
           <div class="container">
             <ul>
               <li><router-link class="nav-link p-0" to="/">HOME</router-link></li>
-              <li><router-link class="nav-link p-0" to="/Experience">EXPERIENCE</router-link></li>
               <li><router-link class="nav-link p-0" to="/Project">PROJECTS</router-link></li>
             </ul>
           </div>

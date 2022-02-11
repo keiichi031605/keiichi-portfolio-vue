@@ -3,7 +3,7 @@
     <div>
       <section>
         <FadeInComponent>
-          <h1 class="title">CONTACT</h1>
+          <h2 class="title">CONTACT</h2>
         </FadeInComponent>
         <FadeInComponent>
           <div class="card p-5">
