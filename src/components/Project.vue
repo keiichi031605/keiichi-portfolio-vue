@@ -2,18 +2,14 @@
   <div id="projects">
     <div>
       <section>
-        <FadeInComponent>
-          <h1 class="title">Projects</h1>
-        </FadeInComponent>
-        <FadeInComponent>
+        <h1 class="title">Projects</h1>
           <div class="card">
             <div>
-              <a href="" target="_brank">Coming Soon
+              <a href="" target="_brank">Sorry. I am building the project page at the moment.
                 <img src="" alt="">
               </a>
             </div>
           </div>
-        </FadeInComponent>
       </section>
     </div>
   </div>
