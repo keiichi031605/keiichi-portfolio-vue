@@ -42,6 +42,9 @@ export default {
 .card {
   padding: 36px;
 }
+.card a {
+  font-size: 24px;
+}
 
 a:hover {
   opacity: 0.7;
