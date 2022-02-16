@@ -21,14 +21,13 @@ export default {
 <style scoped>
 #footer {
   background-color: rgb(60, 146, 146);
-  height: 90px;
+  height: 45px;
   color: #fff;
 }
 
 #footer .navbar {
   display: block;
   overflow: hidden;
-  height: 60px;
 }
 
 #footer nav {

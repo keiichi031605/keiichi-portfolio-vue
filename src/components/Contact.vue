@@ -9,9 +9,9 @@
           <div class="card p-5">
             <div>
               <p>
-                DM me via Linkedin if you have any questions.
+                Should you have any questions, please DM me via Linkedin.
               </p>
-              <a href="https://www.linkedin.com/in/keiichi-katsuno/" class="btn text-white mt-4 linkedin">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/keiichi-katsuno/" class="btn text-white mt-4 linkedin"><i class="fab fa-linkedin fa-lg m-1"></i>LinkedIn</a>
             </div>
           </div>
         </FadeInComponent>
@@ -33,7 +33,7 @@ export default {
 
 <style>
 .linkedin {
-  background-color: rgba(65, 184, 131);
+  background-color: rgb(29, 91, 179);
 }
 
 #contact {
