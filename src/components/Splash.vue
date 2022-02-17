@@ -26,15 +26,6 @@ export default {
     }
   },
   mounted () {
-    this.$nextTick(function () {
-      var layer = document.getElementById('parallax')
-      const parallax = new Parallax(layer, {
-        scalarX: 10.0,
-        scalarY: 10.0,
-        frictionX: 0.1,
-        frictionY: 0.1
-      })
-    })
     window.addEventListener('scroll', this.onScroll)
   },
   computed: {
