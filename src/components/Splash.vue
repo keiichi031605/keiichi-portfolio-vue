@@ -1,6 +1,6 @@
 <template>
   <div id="splash">
-    <div id="parallax" class="splash">
+    <div class="splash">
       <div data-depth="0.2" class="ui page grid">
         <h1 class="title text">
           KEIICHI KATSUNO<br/>
