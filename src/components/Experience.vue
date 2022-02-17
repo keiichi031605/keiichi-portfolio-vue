@@ -12,14 +12,17 @@
                 <div class="card-body card-title">
                   <div class="card-experience">
                     <p>Jun/2021 - Present</p>
-                    <h5>Melbourne, Australia</h5>
+                    <h5>Software Developer</h5>
                   </div>
                 </div>
               </div>
               <div class="col-md-9">
                 <div class="card-body">
                   <div class="card-content">
-                    <h5>Back-end/Front-end web application developer at Team App</h5>
+                    <div class="company">
+                      <h5>Company: </h5>
+                      <h5><a href="https://www.teamapp.com/about-our-story?_detail=v1">Stack Team App</a></h5>
+                    </div>
                     <p>Joined as a RoR and Javascript development for the new project called Competition Manager.</p>
                     <table>
                       <tr>
@@ -44,7 +47,7 @@
                 <div class="card-body card-title">
                   <div class="card-experience">
                     <p>Oct/2020 - Jun/2021</p>
-                    <h5>Melbourne, Australia</h5>
+                    <h5>Coffee Specialist</h5>
                   </div>
                 </div>
               </div>
@@ -72,7 +75,7 @@
                 <div class="card-body card-title">
                   <div class="card-experience">
                     <p>Sep/2019 - Dec/2019</p>
-                    <h5>Caldas, Colombia</h5>
+                    <h5>Coffee Specialist</h5>
                   </div>
                 </div>
               </div>
@@ -100,7 +103,7 @@
                 <div class="card-body card-title">
                   <div class="card-experience">
                     <p>Jan/2018 - Sep/2019</p>
-                    <h5>London, England</h5>
+                    <h5>Coffee Specialist</h5>
                   </div>
                 </div>
               </div>
@@ -128,14 +131,14 @@
                 <div class="card-body card-title">
                   <div class="card-experience">
                     <p>Apr/2013 - Jul/2017</p>
-                    <h5>Fukuoka/Osaka, Japan</h5>
+                    <h5>Sales Representative</h5>
                   </div>
                 </div>
               </div>
               <div class="col-md-9">
                 <div class="card-body">
                   <div class="card-content">
-                    <h5>Sales Development Representative at Yuasa Trading Co.</h5>
+                    <h5>Company:<a href="https://www.teamapp.com/?_detail=v1">Team App</a></h5>
                     <p>Started my career in Sales and Marketing of industrial machinery and equipment at one of the leading trading companies in Japan. Enjoyed building the relationship with stakeholders and gained strong confidence to work in a team. </p>
                     <table>
                       <tr>
@@ -478,13 +481,13 @@ section {
   min-height: 150px;
 }
 
-.card .card-title {
-  color: #fff;
-}
-
 .card-body {
   flex: 1 1 auto;
   padding: 1.25rem;
+}
+
+.card .card-title {
+  color: #fff;
 }
 
 .card-title {
@@ -497,6 +500,11 @@ section {
 
 .card-content {
   text-align: left;
+}
+
+.company {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .card p, .card h5 {

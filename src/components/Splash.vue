@@ -117,7 +117,7 @@ a img:hover {
 }
 
 .splash .grid {
-  margin-top: 250px;
+  margin-top: 400px;
 }
 
 .splash {

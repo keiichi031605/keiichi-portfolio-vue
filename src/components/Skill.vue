@@ -10,7 +10,7 @@
     <SlideInLefttoRightComponent>
       <section>
         <div class="clearfix">
-          <h2>Specialties:</h2>
+          <h3>Specialties:</h3>
           <div class="progress-col">
             <div class="progress-wrapper">
               <span>Ruby / Ruby on Rails</span>
@@ -48,7 +48,7 @@
     <SlideInRighttoLeftComponent>
       <section>
         <div class="clearfix">
-          <h2>Experience:</h2>
+          <h3>Experience:</h3>
           <div class="progress-col">
             <div class="progress-wrapper">
               <span>Python</span>
@@ -74,7 +74,7 @@
     <SlideInLefttoRightComponent>
       <section>
         <div class="clearfix">
-          <h2>Other Skills</h2>
+          <h3>Other Skills</h3>
           <div class="progress-col">
             <div class="progress-wrapper">
               <span>Git</span>
@@ -190,7 +190,7 @@ section {
   margin-bottom: 25px;
 }
 
-section h2 {
+section h3 {
   text-align: left;
   color: rgb(240, 240, 240);
 }
@@ -271,7 +271,7 @@ section h2 {
     text-align: center;
   }
 
-  section h2 {
+  section h3 {
     text-align: center;
   }
 
