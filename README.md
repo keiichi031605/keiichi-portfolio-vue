@@ -1,5 +1,7 @@
 # keiichi-portfolio-vue
 
+deployed on: https://keiichi031605.github.io/keiichi-portfolio-vue
+
 > A Vue.js project
 
 ## Build Setup
